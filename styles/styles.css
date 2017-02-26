@@ -37,17 +37,12 @@ nav li:hover{
     background-color: darkslategrey;
 }
 main{
-    height: 70vh;
+    min-height: 70vh;
+    text-align: center;
 }
-main h1{
-    display: flex;
-    display: -webkit-flex;
-    justify-content: center;
-}
-main p{
-    display: flex;
-    display: -webkit-flex;
-    justify-content: center;
+main img{
+    max-width: 25%;
+    float: left;
 }
 footer{
     display: flex;
