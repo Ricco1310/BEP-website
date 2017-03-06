@@ -40,9 +40,14 @@ main{
     min-height: 70vh;
     text-align: center;
 }
+main figure{
+    display: inline-flex;
+    display: -webkit-inline-flex;
+    flex-wrap: wrap;
+}
 main img{
-    max-width: 25%;
-    float: left;
+    max-width: 400px;
+
 }
 footer{
     display: flex;
