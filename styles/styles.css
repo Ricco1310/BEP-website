@@ -41,13 +41,23 @@ main{
     text-align: center;
 }
 main figure{
-    display: inline-flex;
-    display: -webkit-inline-flex;
-    flex-wrap: wrap;
+    display: inline-block;
+    width: 20%;
 }
-main img{
-    max-width: 20vw;
-
+main figure img{
+    width: 100%;
+}
+section p{
+    padding: 0 5vw;
+}
+table{
+    margin: 0 auto;
+}
+th, td{
+    min-width: 5vw;
+    height: 50px;
+    border: 1px solid darkred;
+    border-collapse: collapse;
 }
 footer{
     display: flex;
