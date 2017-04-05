@@ -3,18 +3,20 @@ var figures = document.getElementsByTagName("figure");
 var initialDesign = document.getElementById("initialDesign");
 
 function loadImages() {
-    var toggle = false;
+    var toggle = true;
     initialDesign.onmousedown = function () {
-        console.log(55);
+        console.log(toggle);
         toggle = !toggle;
-    };
-    if (toggle) {
-        for (var i = 0; i < figures.length; i++) {
-            initialDesign.style.display = "visible";
-        }
-    } else {
-        for (var i = 0; i < figures.length; i++) {
-            initialDesign.style.display = "hidden";
+        if (toggle) {
+            for (var i = 0; i < figures.length; i++) {
+                figures[i].style.display = "inline-block";
+                console.log(42);
+            }
+        } else {
+            for (var i = 0; i < figures.length; i++) {
+                figures[i].style.display = "none";
+                console.log(9001);
+            }
         }
     }
 }
