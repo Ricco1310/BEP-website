@@ -47,9 +47,35 @@ figure{
     margin: 0 20px;
     width: 20%;
     float: left;
-    height: 700px;
     margin-bottom: 20px;
     border-bottom: 5px solid darkred;
+}
+#week1Initial figure{
+    height: 750px;
+}
+#week1Feedback figure{
+    height: 750px;
+}
+#week3Initial figure{
+    height: 700px;
+}
+#week3Feedback figure{
+    height: 700px;
+}
+#week4Initial figure{
+    height: 700px;
+}
+#week5Initial figure{
+    height: 350px;
+}
+#week5Feedback figure{
+    height: 350px;
+}
+#week7Initial figure{
+    height: 450px;
+}
+#week7Feedback figure{
+    height: 450px;
 }
 .gallery{
     width: 80%;
