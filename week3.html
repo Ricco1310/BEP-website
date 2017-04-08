@@ -70,15 +70,230 @@
                 one of simplicity and minimalism, seeing as the user does not want to be showered with information. Due to
                 this the design has ample place for the logo for branding, has four distinct fields people have to fill out
                 and has more options hidden under a collapsible panel at the bottom. For finishing touches I added a menu
-                and search bar as required.
+                and search bar as required. Below you can see a table for my thought process
             </p>
+            <table>
+                <tr>
+                    <th>Priority</th>
+                    <th>Requirement</th>
+                    <th>Solution 1<br></th>
+                    <th>Solution 2<br></th>
+                    <th>Solution 3<br></th>
+                </tr>
+                <tr>
+                    <td>M</td>
+                    <td>Plan a journey with public transportation</td>
+                    <td>Allow for user input</td>
+                    <td>Show possible public transports</td>
+                    <td>Show nearby public transport at a glance</td>
+                </tr>
+                <tr>
+                    <td>M</td>
+                    <td>Indicate departure and destination location as textual addresses</td>
+                    <td>Input text field</td>
+                    <td>Logical placement</td>
+                    <td>Swap departure and destination</td>
+                </tr>
+                <tr>
+                    <td>M</td>
+                    <td>Indicate departure and destination location by selecting them on a map</td>
+                    <td>Present a separate map</td>
+                    <td>Hide map until an icon for it is clicked on</td>
+                    <td>Allow for searching on map</td>
+                </tr>
+                <tr>
+                    <td>M</td>
+                    <td>Indicate desired time of arrival</td>
+                    <td>A clickable clock</td>
+                    <td>Textual input field</td>
+                    <td>Separated hours and minutes for quicker input</td>
+                </tr>
+                <tr>
+                    <td>M</td>
+                    <td>Indicate desired time of departure</td>
+                    <td>A clickable clock</td>
+                    <td>Textual input field</td>
+                    <td>Separated hours and minutes for quicker input</td>
+                </tr>
+                <tr>
+                    <td>S</td>
+                    <td>Indicate transport preferences (modes of transport)</td>
+                    <td>Present with a list of visually distinct options</td>
+                    <td>Allow for yes, not preferred and a no option</td>
+                    <td>Remember previous field input</td>
+                </tr>
+                <tr>
+                    <td>S</td>
+                    <td>Select current location as departure location</td>
+                    <td>A current location button that sets location</td>
+                    <td>A map option that auto zooms and selects current location</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>S</td>
+                    <td>Select current time as departure time</td>
+                    <td>A current time button that sets current time</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>M</td>
+                    <td>Contain a search button</td>
+                    <td>General search button</td>
+                    <td>Google Auto complete</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>M</td>
+                    <td>List of possible journey plans</td>
+                    <td>Show list with maps that present journey</td>
+                    <td>Show list without maps that present journey</td>
+                    <td>Separate columns by sortable categories</td>
+                </tr>
+                <tr>
+                    <td>M</td>
+                    <td>Show transportation modes, interchanges w/ number, departure and arival time and CO2 emmisions</td>
+                    <td>Present in a column based list</td>
+                    <td>Show expandable accordion list</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>M</td>
+                    <td>Unique icons</td>
+                    <td>Use market standard icons</td>
+                    <td>Visually distinct</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>M</td>
+                    <td>See planned route on map</td>
+                    <td>Google maps autofill</td>
+                    <td>Own map with route</td>
+                    <td>Present a stylized map</td>
+                </tr>
+                <tr>
+                    <td>S</td>
+                    <td>Take transport preferences in consideration when,planning journey</td>
+                    <td>Allow for high to low priority settings</td>
+                    <td>Hide/show option</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>S</td>
+                    <td>Allow for sorting by total duration, number of,interchanges and CO2 emissions</td>
+                    <td>Sort by catagories</td>
+                    <td>Sort button op top with dropdown of options</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>C</td>
+                    <td>Provide weather forecast</td>
+                    <td>Tap into existing database</td>
+                    <td>Only present a few days ahead</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>M</td>
+                    <td>Transport modes consist of train, metro, tram, bus, bike and walking</td>
+                    <td>Separate values for planning</td>
+                    <td>List of options presented</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>C</td>
+                    <td>Show CO2 emissions when trip taken by car</td>
+                    <td>Show compare side by side</td>
+                    <td>Disclaimer at the bottom of the list</td>
+                    <td>Side disclaimer</td>
+                </tr>
+            </table>
         </section>
         <section>
             <h1>
                 Images
             </h1>
             <div class="gallery" id="week3Initial">
-                Lorem Ipsum
+                <figure>
+                    <a href="images\week3\home.png">
+                        <img src="images\week3\home.png" alt="home">
+                    </a>
+                    <figcaption>
+                        The home page is the first screen the user is presented with, as such it should contain all required information at a glance.
+                    </figcaption>
+                </figure>
+                <figure>
+                    <a href="images\week3\homeDestinationDropdown.png">
+                        <img src="images\week3\homeDestinationDropdown.png" alt="homeDestinationDropdown">
+                    </a>
+                    <figcaption>
+                        When the user uses the departure destination box, a large map will present itself, on which the user can select a place,
+                        the user can also select its current position by pressing the current position button. Manually filling
+                        in the box is still a possibility.
+                    </figcaption>
+                </figure>
+                <figure>
+                    <a href="images\week3\homeDestinationDropdown2.png">
+                        <img src="images\week3\homeDestinationDropdown2.png" alt="homeDestinationDropdown2">
+                    </a>
+                    <figcaption>
+                        For the arrival destination box, the same mechanics as the departure destination box are present.
+                    </figcaption>
+                </figure>
+                <figure>
+                    <a href="images\week3\homeDestinationDropdownAD.png">
+                        <img src="images\week3\homeDestinationDropdownAD.png" alt="homeDestinationDropdownAD">
+                    </a>
+                    <figcaption>
+                        The user can speccifiy through this screen whetever the time is for arriving or departing via a simple dropdown box.
+                    </figcaption>
+                </figure>
+                <figure>
+                    <a href="images\week3\homeDestinationDropdownDate.png">
+                        <img src="images\week3\homeDestinationDropdownDate.png" alt="homeDestinationDropdownDate">
+                    </a>
+                    <figcaption>
+                        For the date box, the user can either manually fill in the required date in the format desired by the user. Or select the
+                        data from a date menu that will be attached underneath.
+                    </figcaption>
+                </figure>
+                <figure>
+                    <a href="images\week3\homeDestinationDropdownTime.png">
+                        <img src="images\week3\homeDestinationDropdownTime.png" alt="homeDestinationDropdownTime">
+                    </a>
+                    <figcaption>
+                        In here the user can either specify what time he or she wants using the standard double scroller. Or manually fill in the
+                        time.
+                    </figcaption>
+                </figure>
+                <figure>
+                    <a href="images\week3\homeMoreOptions.png">
+                        <img src="images\week3\homeMoreOptions.png" alt="homeMoreOptions">
+                    </a>
+                    <figcaption>
+                        If the user presses the more options button, the different methods of travel become apparent. Here the user can toggle individual
+                        options on or off.
+                    </figcaption>
+                </figure>
+                <figure>
+                    <a href="images\week3\tripPage.png">
+                        <img src="images\week3\tripPage.png" alt="tripPage">
+                    </a>
+                    <figcaption>
+                        The trip overview page will show a short and abstracted way for multiple travelling advices. By pressing the extend arrow
+                        underneath the user can get a full overview. There is a handy plan another trip button located so
+                        that the user can quickly go back to plan another trip.
+                    </figcaption>
+                </figure>
+                <figure>
+                    <a href="images\week3\tripPageDropdown.png">
+                        <img src="images\week3\tripPageDropdown.png" alt="tripPageDropdown">
+                    </a>
+                    <figcaption>
+                        In the dropdown the user gets a step by step overview, seperated by boxes, of the route to take. Next to it will be a map
+                        that shows the entire route. Lastly under the map is the leftover information such as weather and
+                        CO2 emmisions.
+                    </figcaption>
+                </figure>
             </div>
         </section>
         <section>
@@ -86,7 +301,11 @@
                 Feedback
             </h1>
             <p>
-                Lorem Ipsum
+                The feedback put forth on my wireframes is one of (mostly) utility. Key errors were: Clarity, flow and feedback. From this
+                I can conclude that I need to make sure that the entire page is understood at a glance, secondly I need to
+                make sure that the options provided are clear enough for the user to understand what they do and thirdly
+                I need to make sure that the actions the user performs are reflected back by the page with a proper state
+                and order to them. The original PDF can he downloaded <a href="images\week3\Evaluation-by-rick-for-riccardo.pdf" download>here</a>
             </p>
         </section>
         <section>
@@ -94,7 +313,46 @@
                 Images
             </h1>
             <div class="gallery" id="week3Feedback">
-                Lorem Ipsum
+                <figure>
+                    <a href="images\week3\Screenshot_1.png">
+                        <img src="images\week3\Screenshot_1.png" alt="Screenshot_1">
+                    </a>
+                    <figcaption>
+                        Purpose of the site feedback
+                    </figcaption>
+                </figure>
+                <figure>
+                    <a href="images\week3\Screenshot_2.png">
+                        <img src="images\week3\Screenshot_2.png" alt="Screenshot_2">
+                    </a>
+                    <figcaption>
+                        Content feedback
+                    </figcaption>
+                </figure>
+                <figure>
+                    <a href="images\week3\Screenshot_3.png">
+                        <img src="images\week3\Screenshot_3.png" alt="Screenshot_3">
+                    </a>
+                    <figcaption>
+                        Layout feedback
+                    </figcaption>
+                </figure>
+                <figure>
+                    <a href="images\week3\Screenshot_4.png">
+                        <img src="images\week3\Screenshot_4.png" alt="Screenshot_4">
+                    </a>
+                    <figcaption>
+                        Navigation feedback
+                    </figcaption>
+                </figure>
+                <figure>
+                    <a href="images\week3\Screenshot_5.png">
+                        <img src="images\week3\Screenshot_5.png" alt="Screenshot_5">
+                    </a>
+                    <figcaption>
+                        Calls to action feedback
+                    </figcaption>
+                </figure>
             </div>
         </section>
         <section>
