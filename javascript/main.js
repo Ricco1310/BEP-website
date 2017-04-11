@@ -1,6 +1,6 @@
 var bannerTop = document.getElementById("banner");
-var figures = document.getElementsByTagName("figure");
-var initialDesign = document.getElementById("initialDesign");
+var gallery = document.getElementsByClassName("gallery");
+var initialDesign = document.getElementsByName("initialDesign");
 
 function loadImages() {
     var toggle = true;
@@ -8,13 +8,13 @@ function loadImages() {
         console.log(toggle);
         toggle = !toggle;
         if (toggle) {
-            for (var i = 0; i < figures.length; i++) {
-                figures[i].style.display = "inline-block";
+            for (var i = 0; i < gallery.length; i++) {
+                gallery[i].style.display = "inline-block";
                 console.log(42);
             }
         } else {
-            for (var i = 0; i < figures.length; i++) {
-                figures[i].style.display = "none";
+            for (var i = 0; i < gallery.length; i++) {
+                gallery[i].style.display = "none";
                 console.log(9001);
             }
         }

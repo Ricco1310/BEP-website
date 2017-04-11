@@ -67,7 +67,7 @@ figure{
     height: 200px;
 }
 #week4Initial figure{
-    height: 300px;
+    height: 400px;
 }
 #week4Feedback figure{
     height: 200px;
@@ -85,6 +85,7 @@ figure{
     height: 450px;
 }
 .gallery{
+    display: block;
     width: 80%;
     margin: 0 auto;
     overflow: hidden;
