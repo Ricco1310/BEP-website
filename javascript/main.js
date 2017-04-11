@@ -32,5 +32,5 @@ function animateBanner() {
 
 window.onload = function () {
     //loadImages();
-    animateBanner();
+    //animateBanner();
 }

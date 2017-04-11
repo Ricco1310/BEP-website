@@ -16,6 +16,11 @@
         </h1>
         <nav>
             <ul>
+                <a href="main.html">
+                    <li>
+                        Home
+                    </li>
+                </a>
                 <a href="week1.html">
                     <li>
                         Week 1
@@ -46,6 +51,11 @@
                         Week 7 & 8
                     </li>
                 </a>
+                <a href="finalreflection.html">
+                    <li>
+                        Final Reflection
+                    </li>
+                </a>
             </ul>
         </nav>
     </header>
@@ -62,14 +72,43 @@
         </section>
         <section>
             <h1>
-                Initial Design
+                Initial Design & Test Setup
             </h1>
             <p>
                 For our initial design we decided to use stepping stones to simulate the floor is lava. For this we used processing for its
                 ease of use for animation. For our the floor is lava game we decided to base it on the stepping stones sinking
                 into the lava. To complete the trail the user would have to stay on all of the stepping stones, but no longer
                 then a few seconds. Our test procedure consisted of seeing how the users interacted with the stepping stones,
-                the game and the scoring mechanic. We noted their feedback and also our own findings.
+                the game and the scoring mechanic. We noted their feedback and also our own findings. A detailed step by
+                step procedure can be found below
+            </p>
+            <h3>
+                Concept
+            </h3>
+            <p>
+                When the user balances on a stone “it sinks” into the lava, pursuing the user to jump to the other stone fast. The time one
+                takes to skip through all the stones will be displayed and can be beaten by others.
+            </p>
+            <h3>
+                Scenario
+            </h3>
+            <p>
+                Scenario For every balancing stone the user jumps on, the sinking stone will turn red within 3 seconds. When the user stand
+                on the stone for a longer period of time or falls of a stone, he burns in lava and dies. Haha..Game Over!
+            </p>
+            <h3>
+                Interface elements
+            </h3>
+            <p>
+                - 10 Lava Stones (which we switched up to 9, since one balancing stone was really big and blocking the beamer).
+            </p>
+            <h3>
+                Wizard input
+            </h3>
+            <p>
+                Wizard Input The wizard will follow the user’s jumps and hover over the stones in Processing in order to make them turn red.
+                When the user loses the game, the Wizard will re-run the codes and the other Wizard shall organize the new
+                placements of the balancing stones.
             </p>
         </section>
         <section>
@@ -118,10 +157,21 @@
         </section>
         <section>
             <h1>
+                Results
+            </h1>
+            <p>
+                During the workshop we projected the game with the beamer, and had 4 participants to test out our portotype. The instructions
+                were as follow: “Skip through the stones as fast as possible. Only rule: You can not step on the same balancing
+                stone twice, or you’ll lose the game.” Below you can find the individual results.
+            </p>
+        </section>
+        <section>
+            <h1>
                 Feedback
             </h1>
             <p>
-                Lorem Ipsum
+                From the data gathered and during the observation we made some key changes to the background of the game. See the screens
+                below.
             </p>
         </section>
         <section>
@@ -149,10 +199,30 @@
         </section>
         <section>
             <h1>
+                Conclusion
+            </h1>
+            <p>
+                We should definitely test the prototype ourselves before testing on users. And it was a good way to time the users, because
+                that made it feel more like a game and motivated them to beat each other’s score.
+            </p>
+        </section>
+        <section>
+            <h1>
                 Reflection
             </h1>
             <p>
-                Lorem Ipsum
+                First of all, it was very nice working with a partner for this prototyping. We both had a lot of fun and a great experience
+                working together. One of the first difficulties we had to encounter with was working with the beamer and
+                mad-mapper; very quick we had to make adjustments already. We had to scale it right and the resolution and
+                lighting weren’t the best. Since the beamer was angled, you could see the shadow of the stepping stones onto
+                the lava floor, which made it somewhat hard. That resulted in having to remove one stone (a big red one),
+                leaving us with 9. Furthermore, we noticed that the lava background was really distracting. So, we quickly
+                changed that back to just a yellow background with a black-filled timer. We got the very helpful insights
+                that we could’ve put a flashing timer wherever the user was, to show how much time they can stay on the stone.
+                Another improvement to be made is that we should have a start button, for when the user is actually starting
+                to jump. Because now, the timer started whenever the game is run and just counted per frameRate. After a
+                while, the program also began to slow down, which was a pity. It made it harder to time the users’ correctly.
+                Also, we could make the game more challenging, by putting the stones further apart from each other.
             </p>
         </section>
     </main>

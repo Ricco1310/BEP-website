@@ -101,6 +101,9 @@ figure figcaption{
 section p{
     padding: 0 5vw;
 }
+#soundGallery{
+    display: inline;
+}
 table{
     margin: 0 auto;
     border-collapse: collapse;
